@@ -1,10 +1,8 @@
-# Scout Technical Exercise (Sr Back-end)
-
 ## Intro
-
-Introduction video: https://drive.google.com/file/d/1KlPYZfZEVaBqDU0AbiXGgz_zmAV-Lhl3/view?usp=drive_link
-
-![assessment screenshot](https://teamupsgeneral.blob.core.windows.net/teamupspublic/sr-backend-v3/doc-analysis.png)
+This was originally a technical exercise I was given for a Senior Backend Engineer role utilizing TypeScript and Next.js. 
+They gave very positive feedback, particularly about the code's simplicity.
+The goal was to do some basic analysis of words within documents, somewhat similar to the types of analysis they regularly performed. 
+See the Pull Requests tab for more details about the types of analysis that were implemented and the code that goes along with them.
 
 ## Quick start
 
@@ -16,22 +14,6 @@ Introduction video: https://drive.google.com/file/d/1KlPYZfZEVaBqDU0AbiXGgz_zmAV
 
 1. Once running, visit `http://localhost:3000/` to load the app--the first load might be slow. You should see the following page if everything is successful.
    ![assessment home screenshot](https://teamupsgeneral.blob.core.windows.net/teamupspublic/sr-backend-v3/doc-analysis-home.png)
-
-## Sample git workflow
-
-Here is a sample flow for making changes and submitting a PR after completing the exercise:
-
-```
-// check out a new branch for your changes
-git checkout -b {BRANCH_NAME}
-
-// make changes and commit them
-git add --all
-git commit
-
-// push new branch up to GitHub
-git push origin {BRANCH_NAME}
-
-// use GitHub to make PR
-// (DO NOT MERGE PR)
-```
+   
+1. Click on the side icon below Home, which should bring up the page to test the endpoints. 
+   ![assessment screenshot](https://teamupsgeneral.blob.core.windows.net/teamupspublic/sr-backend-v3/doc-analysis.png)
